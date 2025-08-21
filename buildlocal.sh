@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "🚀 Building Tiny Ollama Chat..."
+echo "🚀 Construyendo Agente de IA local..."
 
 # Create or clear build directory
 if [ -d "build" ]; then
@@ -50,7 +50,7 @@ print_highlighted_box() {
 }
 
 # Print highlighted usage instructions
-print_highlighted_box "HOW TO USE TINY OLLAMA CHAT
+print_highlighted_box "CÓMO USAR AGENTE DE IA LOCAL
 ----------------------------
 
 1. Change to the build directory:

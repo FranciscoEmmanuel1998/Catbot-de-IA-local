@@ -56,7 +56,7 @@ func ParseFlags() {
 
 	// Add a custom usage message
 	flag.Usage = func() {
-		fmt.Fprintf(flag.CommandLine.Output(), "%s\n\n", color.GreenString("🤖 Tiny Ollama Chat - A lightweight UI for Ollama models"))
+	fmt.Fprintf(flag.CommandLine.Output(), "%s\n\n", color.GreenString("🤖 Agente de IA local - Interfaz ligera para modelos Ollama"))
 		fmt.Fprintf(flag.CommandLine.Output(), "%s\n", color.YellowString("Usage:"))
 		fmt.Fprintf(flag.CommandLine.Output(), "  %s [options]\n\n", os.Args[0])
 		fmt.Fprintf(flag.CommandLine.Output(), "%s\n", color.YellowString("Options:"))

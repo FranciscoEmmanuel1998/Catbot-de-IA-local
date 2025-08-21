@@ -22,7 +22,7 @@ import (
 func main() {
 	// Display welcome banner
 	fmt.Println()
-	fmt.Println(color.GreenString("🤖 Tiny Ollama Chat"))
+	fmt.Println(color.GreenString("🤖 Agente de IA local"))
 	fmt.Println(color.GreenString("────────────────────"))
 	fmt.Println()
 
