@@ -29,7 +29,7 @@ Un cliente ligero para conversar con modelos Ollama locales. Este README resume 
 
 1. Abrir terminal para el cliente:
 ```powershell
-cd 'c:\Users\Emmanuel\Downloads\tiny-ollama-chat-master\tiny-ollama-chat-master\client'
+cd 'c:\Users\Emmanuel\Downloads\Catbot-de-IA-local-main\Catbot-de-IA-local-main\client'
 npm install
 npm run dev
 # cliente en: http://localhost:5173
@@ -37,7 +37,7 @@ npm run dev
 
 2. Abrir terminal para el servidor (Go):
 ```powershell
-cd 'c:\Users\Emmanuel\Downloads\tiny-ollama-chat-master\tiny-ollama-chat-master\server\cmd\server'
+cd 'c:\Users\Emmanuel\Downloads\Catbot-de-IA-local-main\Catbot-de-IA-local-main\server\cmd\server'
 # instalar dependencias Go si faltan, por ejemplo:
 go get github.com/gorilla/handlers@v1.5.1
 go mod tidy
